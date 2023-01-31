@@ -7,23 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023C8DF52983A4800051E49E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C8DF42983A4800051E49E /* User.swift */; };
+		0255E89029861E25000D4093 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E88F29861E25000D4093 /* Group.swift */; };
+		0255E8922986286E000D4093 /* FriendRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8912986286E000D4093 /* FriendRequest.swift */; };
+		0255E894298632A3000D4093 /* NotificationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E893298632A3000D4093 /* NotificationStatus.swift */; };
+		0255E89629863771000D4093 /* GroupInvite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E89529863771000D4093 /* GroupInvite.swift */; };
+		0255E89929880843000D4093 /* LoginPageNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E89829880843000D4093 /* LoginPageNavigationViewController.swift */; };
+		0255E8A629880DB5000D4093 /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8A529880DB5000D4093 /* ProfilePageViewController.swift */; };
+		0255E8A829880E11000D4093 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8A729880E11000D4093 /* CreateAccountViewController.swift */; };
+		0255E8AC29880EC6000D4093 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8AB29880EC6000D4093 /* MainPageViewController.swift */; };
+		0255E8AE29880EDB000D4093 /* VibrateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8AD29880EDB000D4093 /* VibrateViewController.swift */; };
+		0255E8B029880EFB000D4093 /* InviteUsersToGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8AF29880EFB000D4093 /* InviteUsersToGroupViewController.swift */; };
+		0255E8B229880F07000D4093 /* GroupMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8B129880F07000D4093 /* GroupMembersViewController.swift */; };
+		0255E8B5298810D4000D4093 /* CreateNewGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8B4298810D4000D4093 /* CreateNewGroupViewController.swift */; };
+		0255E8B7298810EB000D4093 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8B6298810EB000D4093 /* NotificationViewController.swift */; };
+		0255E8B929881108000D4093 /* AddNewContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8B829881108000D4093 /* AddNewContactsViewController.swift */; };
+		0255E8BB2988111E000D4093 /* ContactsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8BA2988111E000D4093 /* ContactsPageViewController.swift */; };
+		0255E8C0298811FC000D4093 /* MainTabarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8BF298811FC000D4093 /* MainTabarViewController.swift */; };
+		0255E8C22988125F000D4093 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8C12988125F000D4093 /* LoginPageViewController.swift */; };
+		0255E8C42988160B000D4093 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8C32988160B000D4093 /* EmailTextField.swift */; };
+		0255E8C729881A04000D4093 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8C629881A04000D4093 /* PasswordTextField.swift */; };
+		0255E8C929881AF7000D4093 /* LoginBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8C829881AF7000D4093 /* LoginBtn.swift */; };
+		0255E8CB29881F2B000D4093 /* CreateAccountBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8CA29881F2B000D4093 /* CreateAccountBtn.swift */; };
+		0255E8CD298844C8000D4093 /* CreateNewAccountBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8CC298844C8000D4093 /* CreateNewAccountBtn.swift */; };
+		0255E8CF298845C3000D4093 /* LoginPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8CE298845C3000D4093 /* LoginPageViewModel.swift */; };
+		0255E8D129885E7B000D4093 /* StatusLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8D029885E7B000D4093 /* StatusLabel.swift */; };
+		0255E8D329886E21000D4093 /* CreateNewAccountVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8D229886E21000D4093 /* CreateNewAccountVM.swift */; };
+		0255E8D52988A7D7000D4093 /* groupsInvolvedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255E8D42988A7D7000D4093 /* groupsInvolvedTableViewController.swift */; };
 		0297431D2981B94C0088B62C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297431C2981B94C0088B62C /* AppDelegate.swift */; };
 		0297431F2981B94C0088B62C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297431E2981B94C0088B62C /* SceneDelegate.swift */; };
-		029743212981B94C0088B62C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029743202981B94C0088B62C /* ViewController.swift */; };
-		029743242981B94C0088B62C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029743222981B94C0088B62C /* Main.storyboard */; };
+		029743212981B94C0088B62C /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029743202981B94C0088B62C /* Tests.swift */; };
 		029743262981B94D0088B62C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029743252981B94D0088B62C /* Assets.xcassets */; };
 		029743292981B94D0088B62C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029743272981B94D0088B62C /* LaunchScreen.storyboard */; };
+		02E99FD72983938F00E00BB6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02E99FD62983938E00E00BB6 /* GoogleService-Info.plist */; };
+		02E99FDB2983942600E00BB6 /* FirebaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E99FDA2983942600E00BB6 /* FirebaseAPI.swift */; };
+		C54AE29E383D34B9726C077C /* Pods_VibrationWizard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6310878BF3A26B3EB50AC4 /* Pods_VibrationWizard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		023C8DF42983A4800051E49E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0255E88F29861E25000D4093 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		0255E8912986286E000D4093 /* FriendRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequest.swift; sourceTree = "<group>"; };
+		0255E893298632A3000D4093 /* NotificationStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationStatus.swift; sourceTree = "<group>"; };
+		0255E89529863771000D4093 /* GroupInvite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInvite.swift; sourceTree = "<group>"; };
+		0255E89829880843000D4093 /* LoginPageNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageNavigationViewController.swift; sourceTree = "<group>"; };
+		0255E8A529880DB5000D4093 /* ProfilePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
+		0255E8A729880E11000D4093 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		0255E8AB29880EC6000D4093 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		0255E8AD29880EDB000D4093 /* VibrateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrateViewController.swift; sourceTree = "<group>"; };
+		0255E8AF29880EFB000D4093 /* InviteUsersToGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteUsersToGroupViewController.swift; sourceTree = "<group>"; };
+		0255E8B129880F07000D4093 /* GroupMembersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMembersViewController.swift; sourceTree = "<group>"; };
+		0255E8B4298810D4000D4093 /* CreateNewGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewGroupViewController.swift; sourceTree = "<group>"; };
+		0255E8B6298810EB000D4093 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		0255E8B829881108000D4093 /* AddNewContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewContactsViewController.swift; sourceTree = "<group>"; };
+		0255E8BA2988111E000D4093 /* ContactsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsPageViewController.swift; sourceTree = "<group>"; };
+		0255E8BF298811FC000D4093 /* MainTabarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabarViewController.swift; sourceTree = "<group>"; };
+		0255E8C12988125F000D4093 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		0255E8C32988160B000D4093 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		0255E8C629881A04000D4093 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		0255E8C829881AF7000D4093 /* LoginBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBtn.swift; sourceTree = "<group>"; };
+		0255E8CA29881F2B000D4093 /* CreateAccountBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountBtn.swift; sourceTree = "<group>"; };
+		0255E8CC298844C8000D4093 /* CreateNewAccountBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewAccountBtn.swift; sourceTree = "<group>"; };
+		0255E8CE298845C3000D4093 /* LoginPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewModel.swift; sourceTree = "<group>"; };
+		0255E8D029885E7B000D4093 /* StatusLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusLabel.swift; sourceTree = "<group>"; };
+		0255E8D229886E21000D4093 /* CreateNewAccountVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewAccountVM.swift; sourceTree = "<group>"; };
+		0255E8D42988A7D7000D4093 /* groupsInvolvedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groupsInvolvedTableViewController.swift; sourceTree = "<group>"; };
 		029743192981B94C0088B62C /* VibrationWizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibrationWizard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0297431C2981B94C0088B62C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0297431E2981B94C0088B62C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		029743202981B94C0088B62C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		029743232981B94C0088B62C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		029743202981B94C0088B62C /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		029743252981B94D0088B62C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		029743282981B94D0088B62C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0297432A2981B94D0088B62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E99FD62983938E00E00BB6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		02E99FDA2983942600E00BB6 /* FirebaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAPI.swift; sourceTree = "<group>"; };
+		1C57F4BD7D13A8098A083EF7 /* Pods-VibrationWizard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibrationWizard.release.xcconfig"; path = "Target Support Files/Pods-VibrationWizard/Pods-VibrationWizard.release.xcconfig"; sourceTree = "<group>"; };
+		2D6310878BF3A26B3EB50AC4 /* Pods_VibrationWizard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VibrationWizard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5095AF945AE278C020187ED3 /* Pods-VibrationWizard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibrationWizard.debug.xcconfig"; path = "Target Support Files/Pods-VibrationWizard/Pods-VibrationWizard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +91,148 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54AE29E383D34B9726C077C /* Pods_VibrationWizard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		023C8DF32983A45D0051E49E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				023C8DF42983A4800051E49E /* User.swift */,
+				0255E88F29861E25000D4093 /* Group.swift */,
+				0255E8912986286E000D4093 /* FriendRequest.swift */,
+				0255E893298632A3000D4093 /* NotificationStatus.swift */,
+				0255E89529863771000D4093 /* GroupInvite.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0255E897298807A6000D4093 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				0255E89829880843000D4093 /* LoginPageNavigationViewController.swift */,
+				0255E89A29880924000D4093 /* CreateAccountPage */,
+				0255E8C12988125F000D4093 /* LoginPageViewController.swift */,
+				0255E8C829881AF7000D4093 /* LoginBtn.swift */,
+				0255E8C32988160B000D4093 /* EmailTextField.swift */,
+				0255E8C629881A04000D4093 /* PasswordTextField.swift */,
+				0255E8CA29881F2B000D4093 /* CreateAccountBtn.swift */,
+				0255E8CE298845C3000D4093 /* LoginPageViewModel.swift */,
+				0255E8D029885E7B000D4093 /* StatusLabel.swift */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		0255E89A29880924000D4093 /* CreateAccountPage */ = {
+			isa = PBXGroup;
+			children = (
+				0255E8A729880E11000D4093 /* CreateAccountViewController.swift */,
+				0255E8CC298844C8000D4093 /* CreateNewAccountBtn.swift */,
+				0255E8D229886E21000D4093 /* CreateNewAccountVM.swift */,
+			);
+			path = CreateAccountPage;
+			sourceTree = "<group>";
+		};
+		0255E89B2988093A000D4093 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				0255E8A129880A76000D4093 /* VibratePage */,
+				0255E8AB29880EC6000D4093 /* MainPageViewController.swift */,
+				0255E8D42988A7D7000D4093 /* groupsInvolvedTableViewController.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		0255E89C2988094D000D4093 /* CreateNewGroupPage */ = {
+			isa = PBXGroup;
+			children = (
+				0255E8B4298810D4000D4093 /* CreateNewGroupViewController.swift */,
+			);
+			path = CreateNewGroupPage;
+			sourceTree = "<group>";
+		};
+		0255E89D2988096A000D4093 /* NotificationPage */ = {
+			isa = PBXGroup;
+			children = (
+				0255E8B6298810EB000D4093 /* NotificationViewController.swift */,
+			);
+			path = NotificationPage;
+			sourceTree = "<group>";
+		};
+		0255E89E29880988000D4093 /* ContactsPage */ = {
+			isa = PBXGroup;
+			children = (
+				0255E8A429880ACE000D4093 /* AddNewContactsPage */,
+				0255E8BA2988111E000D4093 /* ContactsPageViewController.swift */,
+			);
+			path = ContactsPage;
+			sourceTree = "<group>";
+		};
+		0255E89F2988098F000D4093 /* ProfilePage */ = {
+			isa = PBXGroup;
+			children = (
+				0255E8A529880DB5000D4093 /* ProfilePageViewController.swift */,
+			);
+			path = ProfilePage;
+			sourceTree = "<group>";
+		};
+		0255E8A02988099D000D4093 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				0255E89F2988098F000D4093 /* ProfilePage */,
+				0255E89E29880988000D4093 /* ContactsPage */,
+				0255E89D2988096A000D4093 /* NotificationPage */,
+				0255E89C2988094D000D4093 /* CreateNewGroupPage */,
+				0255E89B2988093A000D4093 /* MainPage */,
+				0255E8BF298811FC000D4093 /* MainTabarViewController.swift */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		0255E8A129880A76000D4093 /* VibratePage */ = {
+			isa = PBXGroup;
+			children = (
+				0255E8AD29880EDB000D4093 /* VibrateViewController.swift */,
+				0255E8A329880AA5000D4093 /* InviteUsersToGroupPage */,
+				0255E8A229880A8C000D4093 /* GroupMembersPage */,
+			);
+			path = VibratePage;
+			sourceTree = "<group>";
+		};
+		0255E8A229880A8C000D4093 /* GroupMembersPage */ = {
+			isa = PBXGroup;
+			children = (
+				0255E8B129880F07000D4093 /* GroupMembersViewController.swift */,
+			);
+			path = GroupMembersPage;
+			sourceTree = "<group>";
+		};
+		0255E8A329880AA5000D4093 /* InviteUsersToGroupPage */ = {
+			isa = PBXGroup;
+			children = (
+				0255E8AF29880EFB000D4093 /* InviteUsersToGroupViewController.swift */,
+			);
+			path = InviteUsersToGroupPage;
+			sourceTree = "<group>";
+		};
+		0255E8A429880ACE000D4093 /* AddNewContactsPage */ = {
+			isa = PBXGroup;
+			children = (
+				0255E8B829881108000D4093 /* AddNewContactsViewController.swift */,
+			);
+			path = AddNewContactsPage;
+			sourceTree = "<group>";
+		};
 		029743102981B94C0088B62C = {
 			isa = PBXGroup;
 			children = (
 				0297431B2981B94C0088B62C /* VibrationWizard */,
 				0297431A2981B94C0088B62C /* Products */,
+				527B560DE36E768DF9B69AF5 /* Pods */,
+				3E8BFC8BE94F3F4D95C69FD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +247,52 @@
 		0297431B2981B94C0088B62C /* VibrationWizard */ = {
 			isa = PBXGroup;
 			children = (
-				0297431C2981B94C0088B62C /* AppDelegate.swift */,
-				0297431E2981B94C0088B62C /* SceneDelegate.swift */,
-				029743202981B94C0088B62C /* ViewController.swift */,
-				029743222981B94C0088B62C /* Main.storyboard */,
+				0255E8A02988099D000D4093 /* TabbarController */,
+				0255E897298807A6000D4093 /* LoginPage */,
+				023C8DF32983A45D0051E49E /* Models */,
+				02E99FD9298393C900E00BB6 /* FirebaseOperations */,
+				02E99FD8298393BB00E00BB6 /* Common */,
+				029743202981B94C0088B62C /* Tests.swift */,
 				029743252981B94D0088B62C /* Assets.xcassets */,
 				029743272981B94D0088B62C /* LaunchScreen.storyboard */,
 				0297432A2981B94D0088B62C /* Info.plist */,
+				02E99FD62983938E00E00BB6 /* GoogleService-Info.plist */,
 			);
 			path = VibrationWizard;
+			sourceTree = "<group>";
+		};
+		02E99FD8298393BB00E00BB6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0297431C2981B94C0088B62C /* AppDelegate.swift */,
+				0297431E2981B94C0088B62C /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		02E99FD9298393C900E00BB6 /* FirebaseOperations */ = {
+			isa = PBXGroup;
+			children = (
+				02E99FDA2983942600E00BB6 /* FirebaseAPI.swift */,
+			);
+			path = FirebaseOperations;
+			sourceTree = "<group>";
+		};
+		3E8BFC8BE94F3F4D95C69FD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D6310878BF3A26B3EB50AC4 /* Pods_VibrationWizard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		527B560DE36E768DF9B69AF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5095AF945AE278C020187ED3 /* Pods-VibrationWizard.debug.xcconfig */,
+				1C57F4BD7D13A8098A083EF7 /* Pods-VibrationWizard.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +302,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0297432D2981B94D0088B62C /* Build configuration list for PBXNativeTarget "VibrationWizard" */;
 			buildPhases = (
+				4583EADBE7941554B64F3251 /* [CP] Check Pods Manifest.lock */,
 				029743152981B94C0088B62C /* Sources */,
 				029743162981B94C0088B62C /* Frameworks */,
 				029743172981B94C0088B62C /* Resources */,
+				8242B6787FC6A5E1CB7414C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +357,96 @@
 			files = (
 				029743292981B94D0088B62C /* LaunchScreen.storyboard in Resources */,
 				029743262981B94D0088B62C /* Assets.xcassets in Resources */,
-				029743242981B94C0088B62C /* Main.storyboard in Resources */,
+				02E99FD72983938F00E00BB6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4583EADBE7941554B64F3251 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VibrationWizard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8242B6787FC6A5E1CB7414C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VibrationWizard/Pods-VibrationWizard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VibrationWizard/Pods-VibrationWizard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VibrationWizard/Pods-VibrationWizard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		029743152981B94C0088B62C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				029743212981B94C0088B62C /* ViewController.swift in Sources */,
+				0255E8A829880E11000D4093 /* CreateAccountViewController.swift in Sources */,
+				029743212981B94C0088B62C /* Tests.swift in Sources */,
+				0255E8AE29880EDB000D4093 /* VibrateViewController.swift in Sources */,
+				0255E8CD298844C8000D4093 /* CreateNewAccountBtn.swift in Sources */,
 				0297431D2981B94C0088B62C /* AppDelegate.swift in Sources */,
+				0255E8CF298845C3000D4093 /* LoginPageViewModel.swift in Sources */,
+				0255E8B229880F07000D4093 /* GroupMembersViewController.swift in Sources */,
+				0255E8C42988160B000D4093 /* EmailTextField.swift in Sources */,
+				0255E89629863771000D4093 /* GroupInvite.swift in Sources */,
 				0297431F2981B94C0088B62C /* SceneDelegate.swift in Sources */,
+				0255E8A629880DB5000D4093 /* ProfilePageViewController.swift in Sources */,
+				0255E8D129885E7B000D4093 /* StatusLabel.swift in Sources */,
+				0255E8BB2988111E000D4093 /* ContactsPageViewController.swift in Sources */,
+				0255E8CB29881F2B000D4093 /* CreateAccountBtn.swift in Sources */,
+				0255E89029861E25000D4093 /* Group.swift in Sources */,
+				0255E8AC29880EC6000D4093 /* MainPageViewController.swift in Sources */,
+				0255E89929880843000D4093 /* LoginPageNavigationViewController.swift in Sources */,
+				0255E8D52988A7D7000D4093 /* groupsInvolvedTableViewController.swift in Sources */,
+				0255E8D329886E21000D4093 /* CreateNewAccountVM.swift in Sources */,
+				0255E8922986286E000D4093 /* FriendRequest.swift in Sources */,
+				0255E8C729881A04000D4093 /* PasswordTextField.swift in Sources */,
+				0255E8C22988125F000D4093 /* LoginPageViewController.swift in Sources */,
+				0255E8B029880EFB000D4093 /* InviteUsersToGroupViewController.swift in Sources */,
+				0255E8C0298811FC000D4093 /* MainTabarViewController.swift in Sources */,
+				0255E8B5298810D4000D4093 /* CreateNewGroupViewController.swift in Sources */,
+				0255E8B7298810EB000D4093 /* NotificationViewController.swift in Sources */,
+				023C8DF52983A4800051E49E /* User.swift in Sources */,
+				0255E894298632A3000D4093 /* NotificationStatus.swift in Sources */,
+				02E99FDB2983942600E00BB6 /* FirebaseAPI.swift in Sources */,
+				0255E8B929881108000D4093 /* AddNewContactsViewController.swift in Sources */,
+				0255E8C929881AF7000D4093 /* LoginBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		029743222981B94C0088B62C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				029743232981B94C0088B62C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		029743272981B94D0088B62C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +574,7 @@
 		};
 		0297432E2981B94D0088B62C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5095AF945AE278C020187ED3 /* Pods-VibrationWizard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,9 +584,8 @@
 				INFOPLIST_FILE = VibrationWizard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,14 +593,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.enhanceit.VibrationWizard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0297432F2981B94D0088B62C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C57F4BD7D13A8098A083EF7 /* Pods-VibrationWizard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,9 +614,8 @@
 				INFOPLIST_FILE = VibrationWizard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,9 +623,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.enhanceit.VibrationWizard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
